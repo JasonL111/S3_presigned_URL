@@ -17,10 +17,11 @@ This tool is a Go application that generates presigned URLs for all objects in a
 ## Installation
 
 1. **Clone the Repository**:
-`git clone https://github.com/yourusername/your-repo-name.git`
-`cd your-repo-name`
-
-### Install dependencies
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+3. **Install dependencies**
 `go mod tidy`
 
 
@@ -33,7 +34,7 @@ This tool is a Go application that generates presigned URLs for all objects in a
     B2_REGION=region
     B2_BUCKET_NAME=your-bucket-name
     PREFIX=optional-prefix
-
+    ```
 2. **Run the program**:
     `go run main.go`
 
