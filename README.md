@@ -38,8 +38,9 @@ This tool is a Go application that generates presigned URLs for all objects in a
     `go run main.go`
 
 ## Dependencies
-- AWS SDK for Go v2
-- godotenv
+- AWS SDK for Go v2: under Apche2.0 License, see NOTICE2.txt
+- godotenv: under MIT License https://mit-license.org/
+  
 
 ## License
 This project is licensed under the Apache2.0 License. See the LICENSE file for details.
