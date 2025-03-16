@@ -20,14 +20,14 @@
 ## 安装步骤
 
 1. **克隆仓库**：
-   ```bash
-   git clone https://github.com/JasonL111/S3_presigned_URL.git
-   cd S3_presigned_URL
-   ```
+```bash
+git clone https://github.com/JasonL111/S3_presigned_URL.git
+cd S3_presigned_URL
+```
 
 2. **安装依赖包**：
 ```bash
-    go mod tidy
+go mod tidy
 ```
 ## 使用方法
 
@@ -42,12 +42,11 @@ PREFIX=可选的对象前缀（可留空）
 ```
 2. 运行程序：
 ```bash
-    go run main.go
+go run main.go
 ```
 ## 项目依赖
-
-    - AWS SDK for Go v2：使用 Apache 2.0 开源许可，详见 NOTICE2.txt
-    - godotenv：使用 MIT 开源许可，详见 https://mit-license.org/
+- AWS SDK for Go v2：使用 Apache 2.0 开源许可，详见 NOTICE2.txt
+- godotenv：使用 MIT 开源许可，详见 https://mit-license.org/
 
 ## 授权许可
 
