@@ -2,6 +2,10 @@
 
 This tool is a Go application that generates presigned URLs for all objects in a specified Backblaze B2 bucket. The presigned URLs allow you to download objects securely and are written to a `presigned_urls.txt` file.
 
+## Language 语言
+
+[中文](https://github.com/JasonL111/S3_presigned_URL/blob/main/README.zh-CN.md)
+
 ## Features
 
 - **Generate Presigned URLs**: Creates presigned URLs for all objects or objects with a specific prefix in a Backblaze B2 bucket.
