@@ -39,6 +39,11 @@ cd S3_presigned_URL
     B2_BUCKET_NAME=your-bucket-name
     PREFIX=optional-prefix
     ```
+    Configuration Notes:
+    B2 Endpoint must include the https:// prefix, e.g., https://s3.us-west-001.backblazeb2.com
+    Region can be extracted from the endpoint, example:
+    If endpoint is s3.us-west-001.backblazeb2.com, then region is us-west
+    Backblaze B2 endpoint and key information can be found in your Backblaze account dashboard
 2. **Run the program**:
     `go run main.go`
 

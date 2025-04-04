@@ -40,7 +40,12 @@ B2_REGION=你的区域（Region）
 B2_BUCKET_NAME=你的存储桶名称
 PREFIX=可选的对象前缀（可留空）
 ```
-2. 运行程序：
+配置说明：
+
+B2端点(Endpoint)需要包含 https:// 前缀，例如：https://s3.us-west-001.backblazeb2.com
+区域(Region)可以从端点提取，示例：
+若端点为 s3.us-west-001.backblazeb2.com，则区域为 us-west
+Backblaze B2端点和密钥信息可以在您的 Backblaze 账户首页中找到
 ```bash
 go run main.go
 ```
