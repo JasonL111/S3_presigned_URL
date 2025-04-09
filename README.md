@@ -25,7 +25,7 @@ This tool is a Go application that generates presigned URLs for all objects in a
 git clone https://github.com/JasonL111/S3_presigned_URL.git
 cd S3_presigned_URL
 ```
-3. **Install dependencies**
+2. **Install dependencies**
 `go mod tidy`
 
 
