@@ -38,6 +38,7 @@ B2_APPLICATION_KEY=你的应用密钥
 B2_ENDPOINT=你的B2端点（Endpoint）
 B2_REGION=你的区域（Region）
 B2_BUCKET_NAME=你的存储桶名称
+DURATION_TIME=链接的有效小时数
 PREFIX=可选的对象前缀（可留空）
 ```
 配置说明：

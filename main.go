@@ -26,6 +26,7 @@ import (
 	"log"
 	"os"
 	"time"
+	"strconv"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
@@ -68,8 +69,11 @@ func main() {
 	b2Region := os.Getenv("B2_REGION")
 	bucketName := os.Getenv("B2_BUCKET_NAME")
 	prefix := os.Getenv("PREFIX")
-	lifetimeSecs := int64(3600) // Presigned URL valid for 1 hour
-
+	durationStr := os.Getenv("DURATION_TIME")
+	hours, _ := strconv.Atoi(durationStr)
+	seconds := hours * 3600
+	lifetimeSecs := int64(seconds)
+	
 	// Check for required environment variables
 	if b2KeyID == "" || b2ApplicationKey == "" || b2Endpoint == "" || b2Region == "" || bucketName == "" {
 		log.Fatal("Missing required environment variables.")

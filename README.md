@@ -37,6 +37,7 @@ cd S3_presigned_URL
     B2_ENDPOINT=endpoint
     B2_REGION=region
     B2_BUCKET_NAME=your-bucket-name
+    DURATION_TIME=Validity-hour-of-URL
     PREFIX=optional-prefix
     ```
     Configuration Notes:
